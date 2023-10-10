@@ -1,0 +1,154 @@
+*{
+    padding:0%;
+    margin:0%;
+    border:box-border;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#to-do-list{
+    height:200vh;
+    width:700px;
+    border:5px solid white;
+    margin-top: 22px;
+    padding:10px;
+    position:relative;
+    color:white;
+    padding:5px;
+    background-color:rgb(1, 1, 37);
+ 
+}
+
+#to-do-list h1{
+    color:red;
+}
+
+#mode{
+    height:30px;
+    width:50px;
+    border-radius: 30px;
+    border:2px solid white;
+    position:absolute;
+    right:5%;
+    top:0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.add-list{
+    margin-top: 30px;
+    display: flex;
+}
+
+input[type=text]{
+    height:5rem;
+    width:88%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 2rem;
+    border:4px solid black;
+    color:black;
+    padding-left: 8px;
+}
+
+
+::placeholder{
+    font-size: 2rem;
+    position:absolute;
+    left:3%;
+}
+
+input[type=text]:hover{
+    border:4px solid rgb(170, 2, 2);
+}
+
+#add{
+    height:5.5rem;
+    width:7rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:red;
+    border:4px solid black;
+    font-size:1.3rem;
+    font-weight: 600;
+
+}
+
+.add:hover{
+    border:4px solid rgb(170, 2, 2);
+}
+
+#lists{
+    position:relative;
+    top:4%;
+    display:flex;
+    flex-direction: column;
+}
+
+#lists li{
+    height:60px;
+    width:93%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(240, 94, 94);
+    font-size:2.2rem;
+    list-style: none;
+    position:relative;
+    left:2%;
+    margin-top:28px;
+    padding:0px 8px;
+    background-color: white;
+    color:black;
+  
+   
+}
+
+
+
+#lists li::before{
+    height:100px;
+    width:10px;
+    border-radius: 50%;
+    border:2px solid black;
+    position:relative;
+    left:60%;
+    top:40%;
+}
+
+
+span{
+    height:40px;
+    width:70px;
+    background-color: rgb(209, 30, 30);
+    color:white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(240, 94, 94);
+    position: absolute;
+    right:0%;
+    top:0%;
+    text-align: center;
+    display: none;
+}
+
+#lists li button{
+    height:60px;
+    width:80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position:absolute;
+    right:0.1%;
+    background-color:yellow;
+
+}
+
+
